@@ -1,0 +1,84 @@
+/* колір заголовіків #212121 */
+/* колір параграфів #757575 */
+/* акцент #2196f3 */
+/* білий колір #ffffff */
+/* колір фона основний #f5f5f5 */
+/* колір фона додатковий #2f303a */
+/* колір фона додатковий #f5f4fa */
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196f3;
+    --white-color: #ffffff;
+    --primary-background-color: #f5f5f5;
+    --secondary-background-color: #2f303a;
+    --third-background-color: #f5f4fa;
+
+
+}
+
+.list {
+    list-style: none;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--text-color);
+}
+.logotype {
+    color: #2196f3;
+}
+.logo {
+    color: #000000;
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+}
+
+ 
+
+
+/* Site-nav */
+
+.site-nav .link {
+    color: var(--primary-text-color);
+} 
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.adress-nav .link {
+    color: var(--text-color);
+}
+
+.adress-nav .link:hover,
+.adress-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Section */
+
+.section-title {
+    color: var(--primary-text-color);
+}
+
+/* Features */
+
+.features-list .title {
+    color: var(--primary-text-color);
+}
+
+/* Team */
+
+.team-list .title {
+    color: var(--primary-text-color);
+}
